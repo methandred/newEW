@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.converter, .exchange-rates, .ads, .news {
+    padding: 20px;
+    margin: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.converter form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.converter select, .converter input, .converter button {
+    padding: 10px;
+    margin: 5px;
+}
+
+.exchange-rates table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.exchange-rates th, .exchange-rates td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.ads .ad-banner {
+    background-color: #e0e0e0;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.news article {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
